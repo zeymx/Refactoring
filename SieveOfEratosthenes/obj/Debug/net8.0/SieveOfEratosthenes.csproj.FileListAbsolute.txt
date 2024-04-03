@@ -1,0 +1,14 @@
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.exe
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.deps.json
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.runtimeconfig.json
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.dll
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.pdb
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.AssemblyInfoInputs.cache
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.AssemblyInfo.cs
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.dll
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\refint\SieveOfEratosthenes.dll
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.pdb
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.genruntimeconfig.cache
+C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\ref\SieveOfEratosthenes.dll
