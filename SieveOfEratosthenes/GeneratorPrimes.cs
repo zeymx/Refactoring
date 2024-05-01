@@ -26,7 +26,7 @@ public class GeneratorPrimes
             InitializeArray(f, s);
 
             //Удалить числа, заведомо не являющиеся простыми
-            DeleteNonPrimeNumbers(f);
+            DeleteInitialNonPrimeNumbers(f);
 
             //Отсев
             int j;
