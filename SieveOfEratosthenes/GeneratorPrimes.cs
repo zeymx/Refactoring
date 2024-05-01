@@ -2,6 +2,8 @@
 
 public class GeneratorPrimes
 {
+    int s;
+    Boolean[] f;
     private static void InitializeArray(Boolean[] array, int size)
     {
         for (int i = 0; i < size; i++)
@@ -47,10 +49,10 @@ public class GeneratorPrimes
             return primes;
     }
 
-    public static int[] generatePrimes(int maxValue)
+    public int[] generatePrimes(int maxValue)
     {
-        int s = maxValue + 1;
-        Boolean[] f = new bool[s];
+        this.s = maxValue + 1;
+        this.f = new Boolean[s];
 
         InitializeArray(f, s);
 

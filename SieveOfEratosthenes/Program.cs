@@ -1,5 +1,10 @@
-﻿using SieveOfEratosthenes;
+﻿// using SieveOfEratosthenes;
 
-int maxValue = 100;
-int[] primes = GeneratorPrimes.generatePrimes(maxValue);
-Console.WriteLine($"Результат для maxValue = {maxValue}: {string.Join(", ", primes)}");
+// int maxValue = 100;
+// int[] primes = GeneratorPrimes.generatePrimes(maxValue);
+// Console.WriteLine($"Результат для maxValue = {maxValue}: {string.Join(", ", primes)}");
+
+class Program
+{
+    public static void Main() {}
+}
