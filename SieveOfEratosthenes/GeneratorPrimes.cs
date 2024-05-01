@@ -44,6 +44,7 @@ public class GeneratorPrimes
                 if (array[i]) //Если простое
                     primes[j++] = i;
             }
+            return primes;
     }
 
     public static int[] generatePrimes(int maxValue)
