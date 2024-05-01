@@ -13,6 +13,18 @@ public class GeneratorPrimes
         array[0] = array[1] = false;
     }
 
+    private static void DeleteNonPrimeNumbers(Boolean[] array, int size)
+    {
+            for (int i = 2; i < Math.Sqrt(size) + 1; i++)
+            {
+                if (array[i]) //Если элемент i не вычеркнут, вычеркнуть кратные ему
+                {
+                    for (int j = 2 * i; j < size; j += i)
+                        array[j] = false; //Кратные числа не являются простыми
+                }
+            }
+    }
+
     public static int[] generatePrimes(int maxValue)
     {
         if (maxValue >= 2) // Единственно допустимый случай
@@ -29,15 +41,8 @@ public class GeneratorPrimes
             DeleteInitialNonPrimeNumbers(f);
 
             //Отсев
-            int j;
-            for (i = 2; i < Math.Sqrt(s) + 1; i++)
-            {
-                if (f[i]) //Если элемент i не вычеркнут, вычеркнуть кратные ему
-                {
-                    for (j = 2 * i; j < s; j += i)
-                        f[j] = false; //Кратные числа не являются простыми
-                }
-            }
+            int j = 0;
+            DeleteNonPrimeNumbers(f, s);
 
             //Сколько простых чисел осталось?
             int count = 0;
