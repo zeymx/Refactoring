@@ -8,6 +8,11 @@ public class GeneratorPrimes
             array[i] = true;
     }
 
+    private static void DeleteNonPrimeNumbers(Boolean[] array)
+    {
+        array[0] = array[1] = false;
+    }
+
     public static int[] generatePrimes(int maxValue)
     {
         if (maxValue >= 2) // Единственно допустимый случай
@@ -21,7 +26,7 @@ public class GeneratorPrimes
             InitializeArray(f, s);
 
             //Удалить числа, заведомо не являющиеся простыми
-            f[0] = f[1] = false;
+            DeleteNonPrimeNumbers(f);
 
             //Отсев
             int j;
