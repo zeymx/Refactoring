@@ -17,10 +17,10 @@ public class GeneratorPrimes
     {
             for (int i = 2; i < Math.Sqrt(size) + 1; i++)
             {
-                if (array[i]) //Если элемент i не вычеркнут, вычеркнуть кратные ему
+                if (array[i])
                 {
                     for (int j = 2 * i; j < size; j += i)
-                        array[j] = false; //Кратные числа не являются простыми
+                        array[j] = false;
                 }
             }
     }
@@ -41,7 +41,7 @@ public class GeneratorPrimes
             int[] primes = new int[count];
             for (int i = 0, j = 0; i < size; i++)
             {
-                if (array[i]) //Если простое
+                if (array[i])
                     primes[j++] = i;
             }
             return primes;
@@ -49,27 +49,22 @@ public class GeneratorPrimes
 
     public static int[] generatePrimes(int maxValue)
     {
-        if (maxValue >= 2) // Единственно допустимый случай
+        if (maxValue >= 2)
         {
             // Объявления
-            int s = maxValue + 1; // Размер массива
+            int s = maxValue + 1;
             Boolean[] f = new bool[s];
 
-            //Инициализировать массив значением true
             InitializeArray(f, s);
 
-            //Удалить числа, заведомо не являющиеся простыми
             DeleteInitialNonPrimeNumbers(f);
 
-            //Отсев
             DeleteNonPrimeNumbers(f, s);
 
-            //Сколько простых чисел осталось?
             int count = CountPrimeNumbers(f, s);
 
-            return ExtractPrimeNumbers(f, s, count); //Вернуть простые числа
+            return ExtractPrimeNumbers(f, s, count);
         }
-        else //maxValue < 2
-            return new int[0]; //Вернуть пустой массив
+        else return new int[0];
     }
 }
