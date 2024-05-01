@@ -49,22 +49,18 @@ public class GeneratorPrimes
 
     public static int[] generatePrimes(int maxValue)
     {
-        if (maxValue >= 2)
-        {
-            // Объявления
-            int s = maxValue + 1;
-            Boolean[] f = new bool[s];
+        // Объявления
+        int s = maxValue + 1;
+        Boolean[] f = new bool[s];
 
-            InitializeArray(f, s);
+        InitializeArray(f, s);
 
-            DeleteInitialNonPrimeNumbers(f);
+        DeleteInitialNonPrimeNumbers(f);
 
-            DeleteNonPrimeNumbers(f, s);
+        DeleteNonPrimeNumbers(f, s);
 
-            int count = CountPrimeNumbers(f, s);
+        int count = CountPrimeNumbers(f, s);
 
-            return ExtractPrimeNumbers(f, s, count);
-        }
-        else return new int[0];
+        return ExtractPrimeNumbers(f, s, count);
     }
 }
