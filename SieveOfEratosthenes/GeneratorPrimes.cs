@@ -53,7 +53,6 @@ public class GeneratorPrimes
             // Объявления
             int s = maxValue + 1; // Размер массива
             Boolean[] f = new bool[s];
-            int i;
 
             //Инициализировать массив значением true
             InitializeArray(f, s);
@@ -62,7 +61,6 @@ public class GeneratorPrimes
             DeleteInitialNonPrimeNumbers(f);
 
             //Отсев
-            int j = 0;
             DeleteNonPrimeNumbers(f, s);
 
             //Сколько простых чисел осталось?
