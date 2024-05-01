@@ -2,20 +2,20 @@
 
 public class GeneratorPrimes
 {
-    int s;
-    Boolean[] f;
-    private static void InitializeArray(Boolean[] array, int size)
+    int size, count;
+    Boolean[] array;
+    private void InitializeArray()
     {
         for (int i = 0; i < size; i++)
             array[i] = true;
     }
 
-    private static void DeleteInitialNonPrimeNumbers(Boolean[] array)
+    private void DeleteInitialNonPrimeNumbers()
     {
         array[0] = array[1] = false;
     }
 
-    private static void DeleteNonPrimeNumbers(Boolean[] array, int size)
+    private void DeleteNonPrimeNumbers()
     {
             for (int i = 2; i < Math.Sqrt(size) + 1; i++)
             {
@@ -27,7 +27,7 @@ public class GeneratorPrimes
             }
     }
 
-    private static int CountPrimeNumbers(Boolean[] array, int size)
+    private void CountPrimeNumbers()
     {
             int count = 0;
             for (int i = 0; i < size; i++)
@@ -35,10 +35,10 @@ public class GeneratorPrimes
                 if (array[i])
                     count++;
             }
-            return count;
+            this.count = count;
     }
 
-    private static int[] ExtractPrimeNumbers(Boolean[] array, int size, int count)
+    private int[] ExtractPrimeNumbers()
     {
             int[] primes = new int[count];
             for (int i = 0, j = 0; i < size; i++)
@@ -51,17 +51,13 @@ public class GeneratorPrimes
 
     public int[] generatePrimes(int maxValue)
     {
-        this.s = maxValue + 1;
-        this.f = new Boolean[s];
+        this.size = maxValue + 1;
+        this.array = new Boolean[size];
 
-        InitializeArray(f, s);
-
-        DeleteInitialNonPrimeNumbers(f);
-
-        DeleteNonPrimeNumbers(f, s);
-
-        int count = CountPrimeNumbers(f, s);
-
-        return ExtractPrimeNumbers(f, s, count);
+        InitializeArray();
+        DeleteInitialNonPrimeNumbers();
+        DeleteNonPrimeNumbers();
+        CountPrimeNumbers();
+        return ExtractPrimeNumbers();
     }
 }
