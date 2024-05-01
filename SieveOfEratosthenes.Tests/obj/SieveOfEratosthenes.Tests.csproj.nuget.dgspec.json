@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj": {}
+    "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj": {
+    "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj",
         "projectName": "SieveOfEratosthenes.Tests",
-        "projectPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj",
-        "packagesPath": "C:\\Users\\geric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes.Tests\\obj\\",
+        "projectPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes.Tests\\SieveOfEratosthenes.Tests.csproj",
+        "packagesPath": "C:\\Users\\zeymx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\geric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeymx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
-                "projectPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj"
+              "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
+                "projectPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj"
               }
             }
           }
@@ -85,17 +85,17 @@
         }
       }
     },
-    "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
+    "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
+        "projectUniqueName": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
         "projectName": "SieveOfEratosthenes",
-        "projectPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
-        "packagesPath": "C:\\Users\\geric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\obj\\",
+        "projectPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
+        "packagesPath": "C:\\Users\\zeymx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\geric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeymx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

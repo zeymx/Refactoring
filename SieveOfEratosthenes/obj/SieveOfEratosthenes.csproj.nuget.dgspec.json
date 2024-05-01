@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {}
+    "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
+    "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
+        "projectUniqueName": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
         "projectName": "SieveOfEratosthenes",
-        "projectPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
-        "packagesPath": "C:\\Users\\geric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geric\\OneDrive\\Desktop\\Универ\\Программная инженерия\\2024\\Практика\\SieveOfEratosthenes\\SieveOfEratosthenes\\obj\\",
+        "projectPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\SieveOfEratosthenes.csproj",
+        "packagesPath": "C:\\Users\\zeymx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zeymx\\OneDrive\\Repository\\university\\8thsemestr\\programengineering\\Refactoring\\SieveOfEratosthenes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\geric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zeymx\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
