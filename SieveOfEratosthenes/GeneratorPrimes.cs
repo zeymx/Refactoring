@@ -8,7 +8,7 @@ public class GeneratorPrimes
             array[i] = true;
     }
 
-    private static void DeleteNonPrimeNumbers(Boolean[] array)
+    private static void DeleteInitialNonPrimeNumbers(Boolean[] array)
     {
         array[0] = array[1] = false;
     }
