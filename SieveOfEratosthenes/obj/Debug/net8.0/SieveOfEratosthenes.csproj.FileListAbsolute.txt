@@ -12,3 +12,17 @@ C:\Users\geric\OneDrive\Desktop\Универ\Программная инжене
 C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.pdb
 C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.genruntimeconfig.cache
 C:\Users\geric\OneDrive\Desktop\Универ\Программная инженерия\2024\Практика\SieveOfEratosthenes\SieveOfEratosthenes\obj\Debug\net8.0\ref\SieveOfEratosthenes.dll
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.exe
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.deps.json
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.runtimeconfig.json
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.dll
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\bin\Debug\net8.0\SieveOfEratosthenes.pdb
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.AssemblyInfoInputs.cache
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.AssemblyInfo.cs
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.dll
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\refint\SieveOfEratosthenes.dll
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.pdb
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\SieveOfEratosthenes.genruntimeconfig.cache
+C:\Users\zeymx\OneDrive\Repository\university\8thsemestr\programengineering\Refactoring\SieveOfEratosthenes\obj\Debug\net8.0\ref\SieveOfEratosthenes.dll
