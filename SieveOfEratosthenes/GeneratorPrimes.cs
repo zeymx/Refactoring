@@ -2,6 +2,12 @@
 
 public class GeneratorPrimes
 {
+    private static void InitializeArray(Boolean[] array, int size)
+    {
+        for (int i = 0; i < size; i++)
+            array[i] = true;
+    }
+
     public static int[] generatePrimes(int maxValue)
     {
         if (maxValue >= 2) // Единственно допустимый случай
@@ -12,8 +18,7 @@ public class GeneratorPrimes
             int i;
 
             //Инициализировать массив значением true
-            for (i = 0; i < s; i++)
-                f[i] = true;
+            InitializeArray(f, s);
 
             //Удалить числа, заведомо не являющиеся простыми
             f[0] = f[1] = false;
