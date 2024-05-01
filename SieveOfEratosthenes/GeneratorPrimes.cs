@@ -49,7 +49,6 @@ public class GeneratorPrimes
 
     public static int[] generatePrimes(int maxValue)
     {
-        // Объявления
         int s = maxValue + 1;
         Boolean[] f = new bool[s];
 
