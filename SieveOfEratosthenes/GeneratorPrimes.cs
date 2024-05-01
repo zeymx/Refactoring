@@ -36,6 +36,16 @@ public class GeneratorPrimes
             return count;
     }
 
+    private static int[] ExtractPrimeNumbers(Boolean[] array, int size, int count)
+    {
+            int[] primes = new int[count];
+            for (int i = 0, j = 0; i < size; i++)
+            {
+                if (array[i]) //Если простое
+                    primes[j++] = i;
+            }
+    }
+
     public static int[] generatePrimes(int maxValue)
     {
         if (maxValue >= 2) // Единственно допустимый случай
@@ -58,14 +68,7 @@ public class GeneratorPrimes
             //Сколько простых чисел осталось?
             int count = CountPrimeNumbers(f, s);
 
-            int[] primes = new int[count];
-            //Переместить простые числа в результат
-            for (i = 0, j = 0; i < s; i++)
-            {
-                if (f[i]) //Если простое
-                    primes[j++] = i;
-            }
-            return primes; //Вернуть простые числа
+            return ExtractPrimeNumbers(f, s, count); //Вернуть простые числа
         }
         else //maxValue < 2
             return new int[0]; //Вернуть пустой массив
