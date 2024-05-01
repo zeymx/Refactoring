@@ -25,6 +25,17 @@ public class GeneratorPrimes
             }
     }
 
+    private static int CountPrimeNumbers(Boolean[] array, int size)
+    {
+            int count = 0;
+            for (int i = 0; i < size; i++)
+            {
+                if (array[i])
+                    count++;
+            }
+            return count;
+    }
+
     public static int[] generatePrimes(int maxValue)
     {
         if (maxValue >= 2) // Единственно допустимый случай
@@ -45,12 +56,7 @@ public class GeneratorPrimes
             DeleteNonPrimeNumbers(f, s);
 
             //Сколько простых чисел осталось?
-            int count = 0;
-            for (i = 0; i < s; i++)
-            {
-                if (f[i])
-                    count++; //Приращение счетчика
-            }
+            int count = CountPrimeNumbers(f, s);
 
             int[] primes = new int[count];
             //Переместить простые числа в результат

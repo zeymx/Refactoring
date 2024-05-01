@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SieveOfEratosthenes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24e4eb7547e9e6e3043df76511db75170afbcc6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84d43a04b56f4602ef48e8e3977f4ae0a41e9147")]
 [assembly: System.Reflection.AssemblyProductAttribute("SieveOfEratosthenes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SieveOfEratosthenes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
